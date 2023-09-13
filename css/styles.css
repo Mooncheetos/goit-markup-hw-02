@@ -15,6 +15,12 @@ body {
         text-transform: "uppercase";
 }
 
+.header-logo-color, 
+.footer-logo-color {
+    color: #4d5ae5;
+}
+
+
 .header-link {
     color:#2E2F42;
         font-size: 16px;
@@ -54,13 +60,15 @@ body {
 .title-button {
     color:#FFF;
         font-size: 16px;
+        background-color: #4D5AE5;
         font-weight: 500;
         line-height: 1.50;
         letter-spacing: 0.04em;
 }
 
-.title-button:active, :hover, :focus {
-
+.title-button:hover,
+.title-button:focus {
+    background-color: #404BBF;
 }
 
 .section-benefitions {
@@ -115,6 +123,3 @@ body {
         line-height: 1.20;
 }
 
-.footer-logo {
-    background-color: #2E2F42;
-}
