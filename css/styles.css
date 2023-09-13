@@ -12,9 +12,10 @@ body {
     color: #4d5ae5;
 }
 
-.header-logo, 
+.header-logo,
 .footer-logo {
         font-size: 18px;
+        color: #4d5ae5;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
