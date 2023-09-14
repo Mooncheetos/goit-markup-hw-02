@@ -26,7 +26,7 @@ body {
     color: #2e2f42;
 }
 
-.header-link {
+.header-link-fir {
     color:#2E2F42;
         font-size: 16px;
         font-weight: 500;
@@ -34,8 +34,11 @@ body {
         transition: color 0.3s;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link-fir :hover {
+    color: #404bbf;
+}
+
+.header-link-fir :focus {
     color: #404bbf;
 }
 
@@ -117,10 +120,15 @@ body {
         letter-spacing: 0.02em;
 }
 
-.team-images-ver {
+.team-images {
     background-color: #FFFFFF;
 }
-.team-images {
+
+.team-img-odi {
+    background-color: #FFFFFF;
+}
+
+.team-images-ver {
     background-color: #FFFFFF;
 }
 
