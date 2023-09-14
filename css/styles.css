@@ -34,12 +34,9 @@ body {
         transition: color 0.3s;
 }
 
-.header-link-fir :hover {
-    color: #404bbf;
-}
-
-.header-link-fir :focus {
-    color: #404bbf;
+.header-link-fir:hover,
+.header-link-fir:focus {
+color: #404bbf;
 }
 
 .ul {
