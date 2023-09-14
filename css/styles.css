@@ -43,6 +43,10 @@ body {
     list-style-type: "none";
 }
 
+.header-address {
+    font-style: normal
+}
+
 .header-address-mail {
         font-size: 16px;
         color: #434455;
@@ -50,9 +54,11 @@ body {
         line-height: 1.50;
 }
 
-.header-address-mail:hover,
+.header-address-mail:hover {
+    color: #404bbf;
+}
 .header-address-mail:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .section-one {
@@ -111,7 +117,9 @@ body {
         letter-spacing: 0.02em;
 }
 
-.team-images-ver,
+.team-images-ver {
+    background-color: #FFFFFF;
+}
 .team-images {
     background-color: #FFFFFF;
 }
