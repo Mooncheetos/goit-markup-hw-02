@@ -26,31 +26,18 @@ body {
     color: #2e2f42;
 }
 
-/* .header-link-fir {
+.header-link-fir {
     color:#2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
         transition: color 0.3s;
-} */
-
-.header-navigation-link {
-    color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.50;
-        transition: color 0.3s;
 }
 
-.header-navigation-link:hover,
-.header-navigation-link:focus {
-color: #404bbf;
-}
-
-/* .header-link-fir:hover,
+.header-link-fir:hover,
 .header-link-fir:focus {
 color:#404bbf;
-} */
+}
 
 .ul {
     list-style-type: "none";
