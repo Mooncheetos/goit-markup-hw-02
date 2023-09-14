@@ -26,11 +26,6 @@ body {
     color: #2e2f42;
 }
 
-.footer-logo-color {
-    color: #f4f4fd;
-}
-
-
 .header-link {
     color:#2E2F42;
         font-size: 16px;
@@ -48,7 +43,7 @@ body {
     list-style-type: "none";
 }
 
-.header-address {
+.header-address-mail {
         font-size: 16px;
         color: #434455;
         font-style: normal;
@@ -116,7 +111,8 @@ body {
         letter-spacing: 0.02em;
 }
 
-.team-images-ver {
+.team-images-ver,
+.team-images {
     background-color: #FFFFFF;
 }
 
@@ -150,6 +146,7 @@ body {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.20;
+        letter-spacing: 0.02em
 }
 
 .page-footer {
@@ -162,4 +159,16 @@ body {
     font-size: 16px;
         line-height: 1.50;
         color: #F4F4FD;
+}
+
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color:#4d5ae5;
+}
+
+.footer-logo-color {
+    color: #f4f4fd;
 }
