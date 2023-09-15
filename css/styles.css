@@ -2,18 +2,20 @@ body {
     font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #ffffff;
-        letter-spacing: 0.02em;
 }
 
-.page-header,
-.page-footer {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
+.page-header {
     color: #4d5ae5;
+}
+
+.page-footer {
+    background-color: #2e2f42;
 }
 
 .header-logo,
 .footer-logo {
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
         font-size: 18px;
         color: #4d5ae5;
         font-weight: 700;
@@ -21,8 +23,6 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-
-
 
 .header-logo-color {
     color: #2e2f42;
@@ -33,6 +33,7 @@ body {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
+        letter-spacing: 0.02em; /* 1dob */
 }
 
 .header-link-fir:hover,
@@ -42,6 +43,11 @@ color:#404bbf;
 
 .ul {
     list-style-type: "none";
+    list-style: "none";
+}
+
+.a {
+    text-decoration: "none";
 }
 
 .header-address {
@@ -53,6 +59,7 @@ color:#404bbf;
         color: #434455;
         font-style: normal;
         line-height: 1.50;
+        letter-spacing: 0.02em; /* 2dob */
 }
 
 .header-address-mail:hover {
@@ -102,6 +109,7 @@ color:#404bbf;
 .benefits-text, .port-text {
         font-size: 16px;
         line-height: 1.50;
+        letter-spacing: 0.02em; /* 3dob */
 }
 
 .section-three {
@@ -143,6 +151,7 @@ color:#404bbf;
         text-align: center;
         font-size: 16px;
         line-height: 1.50;
+        letter-spacing: 0.02em; /* 4dob */
 }
 
 .section-port {
@@ -173,6 +182,7 @@ color:#404bbf;
     font-size: 16px;
         line-height: 1.50;
         color: #F4F4FD;
+        letter-spacing: 0.02em; /* 5dob */
 }
 
 .page-footer {
