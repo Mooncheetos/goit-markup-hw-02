@@ -41,17 +41,17 @@ body {
 color:#404bbf;
 }
 
-.ul {
-    list-style-type: "none";
-    list-style: "none";
+ul {
+    list-style-type: none;
+    list-style: none;
 }
 
-.a {
-    text-decoration: "none";
+a {
+    text-decoration: none;
 }
 
 .header-address {
-    font-style: normal
+    font-style: normal;
 }
 
 .header-address-mail {
